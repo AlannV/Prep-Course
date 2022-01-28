@@ -1,0 +1,41 @@
+body    {   
+        background-image: url(https://previews.123rf.com/images/makingfaces/makingfaces1607/makingfaces160700032/62340639-abstrakt-hellblau-und-grau-bewegung-linien-auf-wei%C3%9Fem-hintergrund.jpg); 
+        }
+
+.container{
+        display : flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+
+h1      {     
+        color : deeppink 
+        }
+
+img     {
+        width : 400px;
+        height: 300px;
+        }
+
+.spanid{
+        font-size: 18px;
+        margin-left: 50px;
+        }
+
+.divClass{
+        
+        }
+
+#thirdDiv{ 
+        height: 600px;
+        width: 500px;
+        background-color: darkred;
+        padding: 50px;
+        border-width: 10px;
+        border-color: blueviolet;
+        border-style: dotted;
+        
+        }
+
+
