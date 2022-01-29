@@ -4,35 +4,91 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 */
 
 /* Ejercicio 1: Centrar el texto en un span */
-
 /* Arrancaremos este ejercicio por vos: */
-#ejercicioUno {
 
+#ejercicioUno {
+                display: block;
+                text-align: center;
 }
 
 
 /* Ejercicio 2: Posicionar el header */
-
 /* Acá va tu código */
 
+#ejercicioDos {
+                font-size: 0;
+                color: transparent;
+}
 
 
 /* Ejercicio 3: */
-
 /* Acá va tu código */
-
-
+#containerImagen{
+                position: relative;
+}
+#ejercicioTres {
+                position: absolute;
+                left: 200px;
+                top: 100px;
+}
 
 /* Ejercicio 4: */
-
 /* Acá va tu código */
 
+#ejercicioCuatro {
+                position: fixed;
+                top: 10px;
+}
 
-
-/* Ejercicio 5: */
-
+/* Ejercicio 5 y 6: */
 /* Acá va tu código */
 
+#ejercicioCinco {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: row-reverse;
+                }
 
+/* Ejercicio 7. */
 
-/* Ejercicio 6. */
+#ejercicioSiete {
+                display: flex;
+                flex-direction: column-reverse;
+                background-color: tomato;
+                align-items:flex-end;
+                position: relative;
+                }
+
+#elementoUno    {
+                position: absolute;
+                top: 10px;
+                left: 10px;                
+}
+
+#elementoDos    {
+                position: absolute;
+                bottom: 10px;
+                left: 25px;
+
+}
+#elementoTres   {
+                position: absolute;
+                top: 200px;
+
+}
+#elementoCuatro {
+                position: absolute;
+                top: 125px;
+                left: 150px;
+
+}
+
+.elementos {
+                font-weight: bolder;
+                font-style: italic;
+                background-color: yellow;
+                border-radius: 50px;
+                padding: 5px;
+                
+}
